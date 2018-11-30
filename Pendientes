@@ -1,6 +1,18 @@
 Pendientes:
 
-- Aplicación "colaborar"
-- Vincularla correctamente a la aplicación lenguaje.
-- Revisión conceptual del paso de parámetros.
-- Crear Readme V2 para la segunda parte de la aplicación.-
+- Un poco de ayuda para pasar correctamente el comando que tengo en el módulo colaborar (Se me resiste pasarlo al cmd, pero el print lo hace correcto )
+- Unos consejos sobre como implantar correctamente la lógica de proceso, he revisado un poco por inet y me he hecho 
+con este código pero a pesar de que he intentado implementarlo de varias maneras parece que me "cuesta" un poco.
+
+
+
+  Process proc = Runtime.getRuntime().exec(cmd); 
+        proc.waitFor();
+        try(BufferedReader r = new BufferedReader(new InputStreamReader(proc.getInputStream()))) {
+            final StringBuilder sb = new StringBuilder();
+            String data = "";
+            while( (data = r.readLine() ) != null) {
+                sb.append(data);
+                sb.append("\n");
+            }
+            println(sb.toString());
