@@ -22,7 +22,7 @@ Ver imagen:
 
 <b>Resultado:</b>
 
-[![Captura Punto 2](https://github.com/arkaland/Tarea1PSP/blob/master/Imagenes/Capturap2.PNG)](#features)
+[![Captura Punto 2](https://github.com/arkaland/Tarea1PSP/blob/master/Imagenes/capturap2.PNG)](#features)
 
 <b>Histórico de modificaciones:</b>
 
